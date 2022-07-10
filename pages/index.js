@@ -36,8 +36,8 @@ export default function Home() {
           quam. Nam ut orci ullamcorper, malesuada augue ut, pharetra mauris. Ut
           sollicitudin lorem et leo fermentum scelerisque.
         </p>
-        <Link href="/about">
-          <a className={styles.btn}>See About Page</a>
+        <Link href="/pokemon">
+          <a className={styles.btn}>See Pokemon List Page</a>
         </Link>
       </div>
     </>

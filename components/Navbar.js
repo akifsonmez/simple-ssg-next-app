@@ -14,6 +14,9 @@ function Navbar() {
       <Link href="/about">
         <a>About</a>
       </Link>
+      <Link href="/pokemon">
+        <a>Pokemon</a>
+      </Link>
       <Link href="/subpath">
         <a>Subpath</a>
       </Link>
