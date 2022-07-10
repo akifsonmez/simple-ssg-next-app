@@ -1,11 +1,7 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-
-export default function Home() {
+function SubPathTest() {
   return (
     <div>
-      <Navbar />
-      <h1>Home Page</h1>
+      <h1>Sub Path Test</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
         porttitor venenatis tellus. Aliquam mollis erat nibh, ac tempus tortor
@@ -19,7 +15,8 @@ export default function Home() {
         ullamcorper, malesuada augue ut, pharetra mauris. Ut sollicitudin lorem
         et leo fermentum scelerisque.
       </p>
-      <Footer />
     </div>
   );
 }
+
+export default SubPathTest
