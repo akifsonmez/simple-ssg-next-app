@@ -1,5 +1,6 @@
 import styles from "../../styles/Pokemon.module.css";
 import Head from "next/head";
+import Link from "next/link";
 
 export async function getStaticProps() {
   const response = await fetch("https://pokeapi.co/api/v2/pokemon");
@@ -18,11 +19,11 @@ function PokemonList({ pokemonList }) {
       <div>
         <h1>Pokemon List</h1>
         {pokemonList.map((p) => (
-          <div key={p.name}>
+          <Link key={p.name} href={`pokemon/${p.name}`}>
             <a className={styles.single}>
               <h3>{p.name.toUpperCase()}</h3>
             </a>
-          </div>
+          </Link>
         ))}
       </div>
     </>
